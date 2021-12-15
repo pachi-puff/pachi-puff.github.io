@@ -1,0 +1,212 @@
+@charset "utf-8";
+
+/*リセットcss*/
+
+/*共通部分*/
+
+.ul_main_visual{
+     background-image: url(../images/food_onsen/3head_visual.jpg);
+ }
+
+main section{
+    background-position: 1089px 0px;
+}
+
+h2{
+    padding-left: 100px;
+    font-size: 40px;
+    border-bottom: none;
+}
+h2 span{
+    font-size: 40px;
+    border-bottom: solid 1px #e86951;
+    padding-bottom: 35px;
+    margin-bottom: 35px;
+}
+.food{
+    margin-top:180px;
+} 
+
+.kaisetsu{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-left: 100px;
+      width:900px
+}
+.mainvisual{
+    margin-left: 100px;
+    margin-bottom: 90px;
+}
+.slide_kaisetsu{
+    padding-left: 40px;
+    padding-top: 20px;
+}
+.syousai::before{content:"<"}
+.syousai::after{content:">"}
+.senshitu{
+    width: 907px;
+    box-sizing: border-box;
+    border: none;
+    padding: 40px;
+    margin-top: 40px;
+    margin-left: 100px;
+    background-color: #f6ece5;
+}
+.midashi{
+    font-size: 24px;
+    font-weight: bold;
+}
+.senshitu_setumei{
+    font-size: 20px;
+}
+.greyline{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 140px;
+}
+.shime{
+    text-align: center;
+    font-size: 24px;
+}
+
+
+
+
+
+/*JQuery*/
+#slide1{
+    width: 478px;
+    position: relative;
+    overflow: hidden;
+    height: 299px;
+    margin-left: 100px;
+    /*margin-top: 30px;*/
+}
+#slide1 ul{
+    position:absolute;
+    width: 1434px;
+    /*height: 299px;*/
+    /*margin-left: 401px;*/
+}
+#slide1 li{
+    float: left;
+    width: 478px;
+    list-style-type: none;
+}
+#slide2{
+    width: 473px;
+    position: relative;
+    overflow: hidden;
+    height: 299px;
+    margin-left: 100px;
+    /*margin-top: 30px;*/
+}
+#slide2 ul{
+    position:absolute;
+    width: 1419px;
+    height: 299px;
+}
+#slide2 li{
+    float: left;
+    width: 473px;
+    list-style-type: none;
+}
+
+/*コピーライト*/
+footer .info{
+    align-items:end;
+    }
+footer .copy {
+        padding-top:10px;
+    }
+
+/*トップへ戻る*/
+#page_top {
+    right: calc((100% - 1280px)/ 2);
+    position: fixed;
+    bottom: 30px;
+  
+}
+#page_top a {
+    background-color: rgba(153, 153, 153, 0.418);
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px 20px;
+}
+#page_top a:hover {
+    background-color: #666;
+    text-decoration: none;
+}
+
+/*レスポンシブ対応*/
+@media screen and (max-width:640px){
+    /*共通だけどULにいれないとだめ*/
+    .ul_main_visual{height: 0px;
+        background-size: contain;
+        background-position: center;
+        width: 100%;
+        background-position: top left;
+        padding-bottom: 125px;
+        }
+        #title{
+            font-size: 24px;
+            padding-top: 40px;
+            text-align: center;
+        }
+        
+/**/
+h2, h2 span, .midashi{
+    font-size:23px;
+    padding-left: 0;
+}
+main p, .underline, .shime{
+    font-size: 17px;
+    padding-left:0;
+}
+.senshitu{
+    margin-left:0;
+    width:auto;
+    padding:20px;
+}
+.slide_kaisetsu{
+    margin-left:0;
+    width:auto;
+    padding:10px;
+}
+.greyline{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.food{
+    margin-top:60px;
+} 
+.kaisetsu{
+    padding-top:65px;
+    padding-bottom:20px;
+    padding-left: 0;
+    width:auto;
+}
+.shime{
+    padding-bottom: 60px;
+    text-align: center;
+}
+#slide1, #slide2{
+    display: none;
+}
+.mainvisual{
+    margin-left: 0;
+    margin-bottom: auto;
+    text-align: center;
+}
+
+/*コピーライト*/
+footer .copy{
+    font-size:75%;
+    }
+
+main{
+    padding: 20px;
+}
+}

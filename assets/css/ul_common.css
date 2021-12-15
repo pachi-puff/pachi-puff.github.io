@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+.ul_main_visual{
+    height: 385px;
+    background-repeat: no-repeat;
+    padding-bottom: 180px;
+    background-color: #f9f7f1;
+}
+
+#title{
+    display: block;
+      letter-spacing: 1em;
+    font-size: 50px;
+    color: #fff;
+    padding-top: 187px;
+    border:none;
+    text-align: center;
+    }
+
+    main section{
+        background-image: url(../images/common_2after/23456right_wagara.png);
+        background-repeat: no-repeat;
+        background-position: 959px 0px;
+    }
+
+    main{
+     padding-bottom: 360px;
+    background-color: #f9f7f1;
+     }
+
+     
+@media screen and (max-width:640px){
+    /*共通だけどULにいれないとだめ*/
+    .ul_main_visual{height: 0px;
+        background-size: contain;
+        background-position: center;
+        width: 100%;
+        background-position: top left;
+        padding-bottom: 125px;
+        }
+        #title{
+            font-size: 24px;
+            padding-top: 40px;
+            text-align: center;
+        }
+        main{
+            padding: 60px;}
+        }

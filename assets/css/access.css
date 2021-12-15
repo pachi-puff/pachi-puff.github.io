@@ -1,0 +1,209 @@
+@charset "utf-8";
+
+.ul_main_visual{
+   /* height: 385px;*/
+    background-image: url(../images/access/6head_visual.jpg);}
+/*    background-repeat: no-repeat;
+    padding-bottom: 180px;
+    background-color: #f9f7f1;
+}
+#title{
+    display: block;
+      letter-spacing: 1em;
+    font-size: 50px;
+    color: #fff;
+    padding-top: 187px;
+    border:none;
+    text-align: center;
+    }
+
+main{
+    padding-bottom: 360px;
+    background-color: #f9f7f1;
+}*/
+main section{
+    /*background-image: url(../images/common_2after/23456right_wagara.png);
+    background-repeat: no-repeat;*/
+    background-position: 989px 0px;
+}
+
+
+
+/*メイン*/
+.all_content{
+    margin-left:100px;
+}
+/*私たちについて*/
+main .about_me {
+    width:800px;
+}
+main .about_me .title span{
+    border-bottom: solid 1px #e86951;
+    font-size: 40px;
+    padding-bottom: 35px;
+    margin-bottom: 35px;
+}
+
+main .about_me .about_me_text{
+    margin-top:65px;
+}
+main .about_me .person {
+    margin-top:30px;
+}
+
+main .about_me .title {
+    margin-top:120px;
+}
+
+/*アクセスについて*/
+main .access {
+    width:800px;
+
+}
+/*main .access .title {
+    margin-top:150px;
+}*/
+main .access .title span{
+    border-bottom: solid 1px #e86951;
+    font-size: 40px;
+    padding-bottom: 35px;
+    margin-bottom: 35px;
+}
+
+main .access .address {
+    margin-top:65px;
+}
+
+iframe {
+    margin-top:35px;
+}
+
+/*送迎について*/
+.transfer{
+    width: 800px;
+    box-sizing: border-box;
+    border: none;
+    background-color: #f6ece5;
+    margin-top: 40px;
+    padding: 50px;
+}
+
+.transfer .sub_title {
+    border-bottom: solid 1px #e86951;
+    margin-bottom:30px;
+}
+
+/*トップへ戻る*/
+#page_top {
+    right: calc((100% - 1280px)/ 2);
+    position: fixed;
+    bottom: 30px;
+  
+}
+#page_top a {
+    background-color: rgba(153, 153, 153, 0.418);
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px 20px;
+}
+#page_top a:hover {
+    background-color: #666;
+    text-decoration: none;
+}
+
+/*コピーライト*/
+footer .info{
+    align-items:end;
+    }
+
+    footer .copy {
+        padding-top:10px;
+    }
+    
+
+
+@media screen and (max-width:640px){
+        /*共通*/
+            .ul_main_visual{height: 0px;
+                background-size: contain;
+                background-position: center;
+                width: 100%;
+                background-position: top left;
+                padding-bottom: 125px;
+                }
+                #title{
+                    font-size: 24px;
+                    padding-top: 40px;
+                    text-align: center;
+                }
+                main{
+                    padding: 60px;}
+        
+                /*ここからアクセスオリジナル*/
+                
+        
+        main {
+            padding-left:20px;
+            padding-right:20px;
+        }
+        .all_content{
+            margin-left:0px;
+            font-size:16px;
+        }
+        
+        /*私たちについて*/
+        main .about_me .title {
+        font-size:23px;
+    
+        }
+        main .about_me .title span {
+        font-size:23px;
+        }
+        
+        main .about_me {
+        width:auto;
+        }
+        
+        main .about_me{
+        margin-bottom: 30px;
+        }
+        
+        /*アクセスについて*/
+        main .access .title {
+        font-size:23px;
+        margin-top:0px;
+        }
+
+        main .access .title span {
+        font-size:23px;
+        }
+        
+        main .access  {
+        width:auto;
+        }
+        
+        iframe{
+        width: auto;
+        height:90%;
+        width:90%;
+        }
+        
+        /*送迎について*/
+        main .access .transfer {
+        width:auto;
+        padding:20px;
+        margin-bottom:60px;
+        }
+
+        main .access .transfer .tel{font-size:13px;
+            margin-top:20px;
+        }
+
+        /*コピーライト*/
+        footer .copy{
+            font-size:75%;
+}
+        }
+
+        

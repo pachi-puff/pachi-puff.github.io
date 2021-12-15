@@ -1,0 +1,211 @@
+@charset "utf-8";
+
+/*共通*/
+.ul_main_visual{
+      background-image: url(../images/kanko/4head_visual.jpg);
+    }
+
+
+#title{
+    display: block;
+      letter-spacing: 1em;
+    font-size: 50px;
+    color: #fff;
+    padding-top: 187px;
+    border:none;
+    text-align: center;
+    }
+
+main section{
+    background-image: url(../images/common_2after/23456right_wagara.png);
+    background-repeat: no-repeat;
+    background-position: 989px 0px;
+}
+
+.spot a {
+    text-decoration:none;
+    color: #b44733;
+ }
+
+ .spota:hover {
+    color:#000;
+    }
+main{
+    padding-left: 100px;
+    box-sizing: border-box;
+ }
+
+main section div, dl{
+    margin-top: 70px;
+}
+
+
+main h1{
+    display: inline;
+}
+
+main h1 span{
+    border-bottom: solid 1px #e86951;
+    font-size: 40px;
+    padding-bottom: 35px;
+    margin-bottom: 35px;
+}
+
+div .catch{
+    background-image: none;
+    margin-right: 260px;
+    padding-right: 0;
+   }
+main .yukata .catch span{
+    border-right: solid 20px #efedc8;
+    font-size: 40px;
+    line-height: 2;
+}
+
+main .yukata .catch .second_line{
+    margin-top: 150px;
+   }
+main .yukata .photo{
+    margin-top: -240px;
+    }
+main .yukata .sub_catch{
+    position: relative;
+    top: 556px;
+    left: -69px;
+      font-size: 30px;
+}
+
+main .yukata .photo{
+    position: relative;
+}
+main .yukata .photo #mid{
+    position: absolute;
+    top: 350px;
+    left: 220px;
+}
+main .yukata .photo #bottom{
+    position: absolute;
+    top: 680px;
+}
+main .spot{
+    margin-top: 800px;
+    padding-right: 260px;
+}
+
+main .spot dt{
+    font-size: 18px;
+}
+main .spot dd{
+    padding-bottom: 40px;
+}
+main .spot #pic1, #pic4{
+    padding-right: 20px;
+}
+#pic1 img{
+    width: 457px;
+}
+#pic2 img{
+    width: 413px;
+}
+#pic3 img{
+    width: 890px;
+    padding-top: 20px;
+   }
+#pic4 img{
+    width: 434px;
+    padding-top: 20px;
+}
+#pic5 img{
+    width: 437px;
+    padding-top: 20px;
+}
+main .spot .bottom{
+    margin-top: 0;
+    margin-bottom: 110px;
+}
+
+
+/*コピーライト*/
+footer .info{
+    align-items:end;
+    }
+
+    footer .copy {
+        padding-top:10px;
+    }
+
+/*トップへ戻る*/
+#page_top {
+    right: calc((100% - 1280px)/ 2);
+    position: fixed;
+    bottom: 30px;
+  
+}
+#page_top a {
+    background-color: rgba(153, 153, 153, 0.418);
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px 20px;
+}
+#page_top a:hover {
+    background-color: #666;
+    text-decoration: none;
+}
+
+
+
+@media screen and (max-width:640px){
+     .ul_main_visual{
+                       background-size: contain;
+            background-position: center;
+            width: 100%;
+            background-position: top left;
+            padding-bottom: 125px;
+                }
+    #title{
+            font-size: 24px;
+            padding-top: 40px;
+            text-align: center;
+        }
+    main{
+        padding-top: 60px;
+        padding-bottom: 160px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+ main .title, main .title span{
+     font-size: 23px;
+}
+
+#mid, #bottom, .vertical, .first_line, .second_line,.top, #pic3, .bottom, .sub_catch{
+    display: none;
+}
+div .catch{
+    background-image: none;
+    margin-right: 0px;
+    padding-right: 0;
+    padding-left:0;
+    padding-top: 0;
+   }
+ main .yukata .photo{
+     margin-top: -42px;
+ }
+
+main .spot {
+    margin-top: 45px;
+    padding-right: 0;
+}
+footer .sns .ds_f{
+    flex-direction: row;
+}
+.mordal{
+    margin-top: 10px;
+}
+.conlcusion{
+    padding-top: 20px;
+    border-top: solid 1px #e86951;
+}
+}
+

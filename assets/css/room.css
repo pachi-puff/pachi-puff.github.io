@@ -1,0 +1,262 @@
+@charset "utf-8";
+
+.ul_main_visual{
+    background-image: url(../images/room/2head_visual.jpg);
+}
+
+h2{
+    margin-bottom: 20px;
+    width: 1000px;
+}
+
+.amenity_title{
+    border: none;
+    margin-bottom: 0px;
+}
+
+.plan .yoyaku{
+     text-align: center;
+ }
+
+ .btn_r{
+    background-color: #d08d7f;
+    border: 2px solid #fff;
+    width: 260px;
+    margin-top: 20px;
+    line-height: 60px;
+    text-align: center;
+    position: relative;
+}
+
+.btn_r a{
+    color:#fff;
+}
+
+.btn_r:hover{
+    background-color: #fff;
+    border:2px solid #d08d7f;
+    color:#d08d7f;
+}
+
+.btn_r:hover a{
+    color: #d08d7f;
+}
+
+.btn_r::after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: 25px;
+    right: 60px;
+    width: 6px;
+    height: 6px;
+    border-top: 2px solid #fff;
+    border-right: 2px solid #fff;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+.plan{
+    width: 550px;
+}
+
+.fee{
+    margin-left: 40px;
+    margin-top: 110px;
+}
+
+.explain{
+    border-right: 1px solid #000;
+}
+
+.main_photo{
+    margin-right: 80px;
+    margin-bottom: 20px;
+}
+
+.sub_photo{
+    margin-bottom: 20px;
+}
+
+main section{
+    background-position: 1080px 0px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    width: 1180px;
+}
+
+.none{
+    background-image: none;
+}
+
+.amenity{
+    background-color: #f6ece5;
+    width: 550px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+
+.amenity br{
+    display: none;
+}
+
+.amenity_font{
+    font-size: 24px;
+}
+
+.amenity_photo{
+    margin-left: 100px;
+    margin-right: 40px;
+}
+
+.amenity_text{
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 623px;
+}
+
+.border{
+    width: 120px;
+    border-bottom:1px solid #d08d7f;
+    margin-bottom: 20px;
+}
+
+.introduction{
+    margin-bottom: 20px;
+}
+
+.title{
+    border: none;
+}
+
+@media screen and (max-width:640px){
+
+    main{
+        padding:20px;
+    }
+
+    main .title{
+        font-size: 23px;
+    }
+
+    #title{
+        letter-spacing: 0.5em;
+    }
+
+    h1{
+        width: 100%;
+    }
+
+    .ul_main_visual{
+        width: auto;
+    }
+
+    .explain{
+        border-right: none;
+        margin-bottom: 20px;
+    }
+
+    .explain br{
+        display: none;
+    }
+
+    h2{
+        width: auto;
+    }
+
+    .main_photo{
+        width: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .yoyaku{
+        margin-top: 20px;
+        margin-bottom: 60px;
+        width: auto;
+    }
+
+    .amenity{
+        width: auto;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+    }
+
+    .fee{
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    }
+
+    main section{
+        width: auto;
+        background-image: none;
+        margin-left: 0px;
+        margin-bottom: 0px;
+    }
+
+    .plan{
+        width: auto;
+    }
+
+    .explain{
+        width: auto;
+    }
+
+    .amenity{
+        padding: 20px;
+        margin-top: 0px;
+        margin-bottom: 60px;
+    }
+
+    .amenity br{
+        display: inline-block;
+    }
+
+    .amenity_font{
+        text-align: center;
+    }
+
+    .amenity_text{
+        width: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .amenity_title{
+        width: auto;
+        border-bottom:solid 1px #d08d7f;
+        margin-top: 20px;
+    }
+
+    .amenity_photo{
+        width: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .border{
+        width: auto;
+        border: none;
+    }
+
+    .plan a, .fee .sub_photo, .amenity_photo{
+        pointer-events: none;
+    }
+
+    footer .copy{
+        font-size: 75%;
+    }
+
+    .button a{
+        padding: auto;
+    }
+}
